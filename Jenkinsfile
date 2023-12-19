@@ -10,7 +10,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                echo 'Deploying WordPress...'
+                echo 'Deploying Word Press...'
                 sh 'docker-compose up -d'
             }
         }
